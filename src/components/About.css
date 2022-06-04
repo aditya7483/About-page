@@ -193,8 +193,40 @@
     max-height: 380.01px;
 }
 
-.comp-text{
-    font-size: 24px!important;
+.comp-text {
+    font-size: 24px !important;
     font-style: normal;
-    margin:0;
+    margin: 0;
+}
+
+/* Footer */
+.footer{
+    background-color:#004A74;
+    margin-top:3rem;
+}
+
+.footer-logo {
+    max-width: 257.84px;
+    max-height: 183.1px;
+}
+.footer-logo2 {
+    margin-left: 45px;
+}
+
+.footer-txt {
+    color: white;
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 150%;
+}
+.footer-txt-small{
+    color: white;
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 300;
+    margin:2px;
+    font-size: 10px;
+    line-height: 150%;
 }

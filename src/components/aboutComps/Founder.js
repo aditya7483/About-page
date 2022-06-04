@@ -4,7 +4,7 @@ import Logo from '../pics/Logo divider (1).png'
 
 export default function Founder() {
     return (
-        <div className='content2'>
+        <div className='content2 mt-3'>
             <div>
                 <div className='container found-cont d-flex flex-column align-items-center'>
 
