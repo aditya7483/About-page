@@ -7,8 +7,8 @@ export default function Heading() {
   return (
     <div>
         <div>
-        <h4 id='heading'>ABOUT US</h4>
-        <img src={Logo} alt='' id='headImg'/>
+        <h4 className='heading'>ABOUT US</h4>
+        <img src={Logo} alt='' className='headImg'/>
         </div>
         
     </div>

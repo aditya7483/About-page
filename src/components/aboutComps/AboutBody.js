@@ -16,11 +16,11 @@ export default function AboutBody() {
 
   return (
     <>
-      <div id="content">
+      <div className="content">
         <img src={Fam} alt='..' id='fam' />
-        <p id="fam-text"> We endeavour to build homes which make it's residents happy and proud of their address. Residents are at heart of everything we do, we build homes to live in, not houses to stay in.</p>
+        <p className="fam-text"> We endeavour to build homes which make it's residents happy and proud of their address. Residents are at heart of everything we do, we build homes to live in, not houses to stay in.</p>
 
-        <img src={Logo} alt='' id='box-divider' />
+        <img src={Logo} alt='' className='box-divider' />
         <div className='container' style={{ maxWidth: '945px' }}>
           <div className='row'>
             <div className='col'>
