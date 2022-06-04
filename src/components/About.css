@@ -1,0 +1,55 @@
+/* intro */
+
+#heading {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #474747;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+#headImg {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+#content::before {
+    content: '';
+    background: url('./pics/back.jpg')no-repeat center center/cover;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#fam {
+    width: 100%;
+}
+
+#fam-text {
+    font-family: 'Roboto Flex';
+    font-style: italic;
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 5rem auto;
+    max-width: 43rem;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Content */
+
+#box-divider {
+    /* max-width: 1260px;
+    max-height: 50.11px; */
+    width:100%;
+    margin-bottom: 2rem;
+}
